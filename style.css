@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: f4f4f4;
+    color: #000;
+}
+section {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.storeCards {
+    box-shadow: 10px 10px 10px pink;
+    width: 30%;
+    padding: 20px 10px;
+    background-color: teal;
+    margin-bottom: 30px;
+}
+.title {
+    font-size: 40px;
+    padding: 15px;
+}
+.sub-title{
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+h3 {
+    padding-bottom: 10px;
+}
+.images {
+    width: 50%;
+}
+.description {
+    padding: 25px;
+    line-height: 1.5;
+}
+.price {
+    font-weight: bolder;
+    font-size: 20px;
+}
